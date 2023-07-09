@@ -13,6 +13,7 @@ For more information, including options for compiling on Windows, check out the 
 ## Contents
 
 - **calconv** is a program that converts between the Gregorian, Julian, Julian Day, Hebrew, Islamic, Persian, Mayan, and Indian Civil calendars. It is based on JS code from the [Fourmilab calendar converter](https://www.fourmilab.ch/documents/calendar/), with the algorithm for Hebrew calendar conversion from [this website](https://www.aa.quae.nl/en/reken/juliaansedag.html).
+- **daywk** is a program that calculates the day of the week for a given Gregorian calendar date. It uses the built in `dayOfWk` function from the TI calculator, but uses `calconv` to handle pre-Gregorian dates too. To use this program, you must alo have `zcalconv` on your calculator.
 - **stopwatch** is a simple stopwatch program that times in seconds, with lap times displayed as cumulative times from start. You can press any key to lap, pressing clear to stop (then reset) the time. The 2023 IAT build required 3 equally spaced signals, with scoring relative to the start. This stopwatch program is modified from the example stopwatch program from the [CE Toolchain](https://ce-programming.github.io/toolchain/index.html).
 
 ## CALCONV
